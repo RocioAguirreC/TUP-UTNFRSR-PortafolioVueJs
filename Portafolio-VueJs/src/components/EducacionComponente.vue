@@ -5,9 +5,15 @@ const fechaColor = ref([]);
 fechaColor.value = [
   {color: '#41516c'},
   {color: '#FBCA3E'},
+  {color: '#41516c'},
+  {color: '#FBCA3E'},
+  {color: '#41516c'},
+  {color: '#4CADAD'},
   {color: '#E24A68'},
   {color: '#1B5F8C'},
-  {color: '#4CADAD'}
+  {color: '#4CADAD'},
+  {color: '#41516c'},
+  {color: '#1B5F8C'}
 ];
 /*Esta es la forma de utilizar el arreglo, sin el metodo value*/
 const educacion = ref([
