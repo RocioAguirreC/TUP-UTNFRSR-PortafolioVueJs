@@ -12,7 +12,7 @@ const redesSociales = [
   { id: 1, name: 'linkedin', src: linkedin, url: 'https://www.linkedin.com/in/rocio-aguirre-cerullo/' },
   { id: 2, name: 'Instagram', src: instagram, url: 'https://www.instagram.com/raguirrecerullo/' },
   { id: 3, name: 'github', src: github, url: 'https://www.github.com/RocioAguirreC' },
-  { id: 4, name: 'curriculum', src: cv, url: '' },
+  { id: 4, name: 'curriculum', src: cv, url: 'https://www.canva.com/design/DAGWFB-bP3w/nruNTlM95BSlxI0pBEyC-A/view?utm_content=DAGWFB-bP3w&utm_campaign=designshare&utm_medium=link&utm_source=editor' },
 ];
 const telefono = '+54 9 362-4703488';
 </script>
@@ -28,7 +28,7 @@ const telefono = '+54 9 362-4703488';
           <a :href="red.url"><img class="icon-redsocial" :src="red.src" width="35rem" :alt="red.name"></a>
         </li>
       </ul>
-      <h3>☎ My contact information: {{ telefono }}</h3>
+      <h3>My contact information: {{ telefono }}</h3>
       <h4>{{ residencia }}</h4>
     </div>
   </section>

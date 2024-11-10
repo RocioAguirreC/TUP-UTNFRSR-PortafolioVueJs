@@ -28,34 +28,34 @@ const habilidades = ref([
     {// Se crea un objeto con id, nombre y habilidades
         id: 1, nombre: 'Lenguajes de Programación', habilidades: [
             //Se crea un objeto con id, nombre, nivel e icono
-            { id: 1, nombre: 'JavaScript', nivel: 'Avanzado', icono: img1 },
+            { id: 1, nombre: 'JavaScript', nivel: 'Intermedio', icono: img1 },
             { id: 2, nombre: 'Python', nivel: 'Intermedio', icono: img2 },
-            { id: 3, nombre: 'HTML/CSS', nivel: 'Avanzado', icono: img3 },
-            { id: 4, nombre: 'Java', nivel: 'Intermedio', icono: img4 },
+            { id: 3, nombre: 'HTML/CSS', nivel: 'Intermedio', icono: img3 },
+            { id: 4, nombre: 'Java', nivel: 'Básico', icono: img4 },
             { id: 5, nombre: 'SQL', nivel: 'Intermedio', icono: img5 }
         ]
     },
     {
         id: 2, nombre: 'Frameworks y Librerías', habilidades: [
-            { id: 1, nombre: 'React.js', nivel: 'Avanzado', icono: img6 },
+            { id: 1, nombre: 'React.js', nivel: 'Básico', icono: img6 },
             { id: 2, nombre: 'Vue.js', nivel: 'Intermedio', icono: img7 },
-            { id: 3, nombre: 'Node.js', nivel: 'Avanzado', icono: img8 },
-            { id: 4, nombre: 'Django', nivel: 'Intermedio', icono: img9 },
-            { id: 5, nombre: 'Bootstrap', nivel: 'Avanzado', icono: img10 }
+            { id: 3, nombre: 'Node.js', nivel: 'Básico', icono: img8 },
+            { id: 4, nombre: 'Django', nivel: 'Básico', icono: img9 },
+            { id: 5, nombre: 'Bootstrap', nivel: 'Básico', icono: img10 }
         ]
     },
     {
         id: 3, nombre: 'Herramientas y Software', habilidades: [
             { id: 1, nombre: 'Git', nivel: 'Avanzado', icono: img11 },
-            { id: 2, nombre: 'Docker', nivel: 'Intermedio', icono: img12 },
+            { id: 2, nombre: 'Docker', nivel: 'Básico', icono: img12 },
             { id: 3, nombre: 'Cypress', nivel: 'Intermedio', icono: img13 },
-            { id: 4, nombre: 'Figma', nivel: 'Intermedio', icono: img14 },
+            { id: 4, nombre: 'Figma', nivel: 'Básico', icono: img14 },
             { id: 5, nombre: 'Visual Studio Code', nivel: 'Avanzado', icono: img15 }
         ]
     },
     {
         id: 4, nombre: 'Bases de Datos', habilidades: [
-            { id: 1, nombre: 'MongoDB', nivel: 'Avanzado', icono: img16 },
+            { id: 1, nombre: 'MongoDB', nivel: 'Básico', icono: img16 },
             { id: 2, nombre: 'MySQL', nivel: 'Intermedio', icono: img17 },
             { id: 3, nombre: 'PostgreSQL', nivel: 'Intermedio', icono: img18 }
         ]
@@ -212,7 +212,7 @@ const habilidades = ref([
     background-position: center;
     background-repeat: no-repeat; */
     /*Fondo con gradiente*/
-    background: linear-gradient(-45deg, #021526, #03346E, #6EACDA, #E2E2B6);
+    background: linear-gradient(-45deg, #021526, #8bebe6, #6EACDA, #E2E2B6);
     /*Fondo con color solido*/
     /* background-color: rgb(28, 41, 52); */
 }

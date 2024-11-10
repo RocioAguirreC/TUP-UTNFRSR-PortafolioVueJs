@@ -6,8 +6,8 @@ import icono4 from '/src/assets/uiux.svg';
 import icono5 from '/src/assets/watch.svg';
 
 import { ref } from 'vue';
-const titulo = 'Freelance Tester';
-const fecha = '2023 / 2024';
+const titulo = 'Freelance Tester at uTest';
+const fecha = '2022 / 2024';
 const experiencias = ref([
     { id: 1, src: icono1, parrafo: 'Executing test cases.'},
     { id: 2, src: icono2, parrafo: 'Web and Mobile Exploratory Testing.'},

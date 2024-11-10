@@ -2,7 +2,7 @@
 import proyecto1 from '/src/assets/restaurant.png';
 import proyecto2 from '/src/assets/e-learning.png';
 import proyecto3 from '/src/assets/blog.png';
-import proyecto4 from '/src/assets/restaurant.png';
+import proyecto4 from '/src/assets/proyecto4.png';
 
 // Este componente muestra una galería de proyectos con información sobre cada proyecto
 import { ref } from 'vue';
@@ -103,7 +103,7 @@ misProyectos.value = ([
     /* Centra los elementos hijos horizontalmente */
     justify-content: center;
     /* Aplica un fondo con un degradado de colores */
-    background: linear-gradient(-45deg, #021526, #03346E, #6EACDA, #E2E2B6);
+    background: linear-gradient(-45deg, #021526, #93e0dd, #6EACDA, #E2E2B6);
     /* Ajusta el tamaño del fondo para que cubra el área completa */
     background-size: 400% 400%;
     /* Aplica una animación al fondo que dura 15 segundos, tiene una transición suave y se repite infinitamente */
@@ -142,7 +142,7 @@ misProyectos.value = ([
     /* Oculta cualquier contenido que se desborde del contenedor */
     overflow: hidden;
     /* Establece un color de fondo claro para el proyecto */
-    background-color: #f9f9f9;
+    background-color: #111111;
     /* Define el ancho máximo del proyecto en 222px */
     max-width: 222px;
     /* Hace que el contenedor se ajuste flexiblemente ocupando al menos 300px de ancho */
@@ -174,7 +174,7 @@ misProyectos.value = ([
     /* Define el tamaño de la fuente a 1.3em (relativo al tamaño de fuente del contenedor) */
     font-size: 1.3em;
     /* Aplica un color gris oscuro (#333) al texto */
-    color: #333;
+    color: #d4d0d0;
 }
 
 /* Estilo para los párrafos de los proyectos */
@@ -184,7 +184,7 @@ misProyectos.value = ([
     /* Define el tamaño de la fuente a 1em (igual al tamaño de fuente base) */
     font-size: 1em;
     /* Aplica un color gris (#666) al texto */
-    color: #666;
+    color: #fcfcfc;
 }
 
 /* La clase 'proyecto-links' organiza los enlaces y botones del proyecto */
@@ -203,7 +203,7 @@ misProyectos.value = ([
 /* Estilo para el botón 'Ver Más' dentro de la clase 'proyecto-links' */
 .proyecto-links .btn-ver-mas {
     /* Aplica un color de fondo azul (#007BFF) */
-    background-color: #007BFF;
+    background-color: #59a5f7;
     /* Aplica un color de texto blanco */
     color: #fff;
     /* Agrega un padding de 10px en vertical y 15px en horizontal */

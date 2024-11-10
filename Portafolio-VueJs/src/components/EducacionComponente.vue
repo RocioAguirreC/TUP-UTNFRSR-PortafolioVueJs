@@ -5,15 +5,15 @@ const fechaColor = ref([]);
 fechaColor.value = [
   {color: '#41516c'},
   {color: '#FBCA3E'},
-  {color: '#41516c'},
-  {color: '#FBCA3E'},
-  {color: '#41516c'},
-  {color: '#4CADAD'},
   {color: '#E24A68'},
   {color: '#1B5F8C'},
   {color: '#4CADAD'},
   {color: '#41516c'},
-  {color: '#1B5F8C'}
+  {color: '#FBCA3E'},
+  {color: '#E24A68'},
+  {color: '#1B5F8C'},
+  {color: '#4CADAD'},
+  {color: '#41516c'}
 ];
 /*Esta es la forma de utilizar el arreglo, sin el metodo value*/
 const educacion = ref([
@@ -38,7 +38,7 @@ const educacion = ref([
         <h3 class="title">{{ item.title }}</h3>
         <div class="descripcion">{{ item.descripcion }}</div>
         <!--Aqui vemos con el uso de b-vind (:) que bindeamos el atributo href de html con el item.enlace-->
-        <a class="enlace" :href="item.enlace" target="_blank">Saber más</a>
+        <a class="enlace" :href="item.enlace" target="_blank"></a>
     </li>
     </ul>
 </template>
